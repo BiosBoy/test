@@ -1,0 +1,30 @@
+{
+  "name": "react-rails-5-starterkit",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "lint": "tslint 'app/**/*.{ts,tsx}' 'test/javascript/**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "@rails/webpacker": "4.0.0-pre.2",
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "@types/react-test-renderer": "^16.0.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.4.2",
+    "react-test-renderer": "^16.4.2",
+    "ts-jest": "^23.1.2",
+    "tslint": "^5.11.0",
+    "tslint-consistent-codestyle": "^1.13.3",
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-react": "^3.6.0",
+    "webpack-dev-server": "^3"
+  }
+}
